@@ -12,6 +12,11 @@ module.exports = {
           repeating-linear-gradient(90deg, hsla(196, 0%, 79%, 0.09) 0px, hsla(196, 0%, 79%, 0.09) 1px, transparent 1px, transparent 12px),
           linear-gradient(90deg, rgb(255, 255, 255), rgb(255, 255, 255))
         `,
+        "black-grid": `repeating-linear-gradient(90deg, hsla(57,0%,42%,0.09) 0px, hsla(57,0%,42%,0.09) 1px, transparent 1px, transparent 60px), 
+                        repeating-linear-gradient(0deg, hsla(57,0%,42%,0.09) 0px, hsla(57,0%,42%,0.09) 1px, transparent 1px, transparent 60px), 
+                        repeating-linear-gradient(0deg, hsla(57,0%,42%,0.09) 0px, hsla(57,0%,42%,0.09) 1px, transparent 1px, transparent 10px), 
+                        repeating-linear-gradient(90deg, hsla(57,0%,42%,0.09) 0px, hsla(57,0%,42%,0.09) 1px, transparent 1px, transparent 10px), 
+                        linear-gradient(90deg, rgb(20,20,20), rgb(20,20,20))`,
       },
       fontSize: {
         sm: "16px",

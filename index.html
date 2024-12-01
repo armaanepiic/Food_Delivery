@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,9 +22,11 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <!-- hero section -->
-    <section class="bg-hero-pattern text-white font-semibold h-screen bg-scroll w-full bg-cover bg-bottom bg-no-repeat m-auto p-[30px]">
+    <section
+        class="bg-hero-pattern text-white font-semibold h-screen bg-scroll w-full bg-cover bg-bottom bg-no-repeat m-auto p-[30px]">
         <div class="flex flex-row justify-between items-center">
             <img class="w-[70px] h-[70px]" src="images/logo.png" alt="logo">
             <div class="flex flex-row gap-12 font-mono">
@@ -32,10 +35,12 @@
                 <a class="hover:bg-gray-400 hover:text-black px-3 rounded-xl" href="#">About Us</a>
                 <a class="hover:bg-gray-400 hover:text-black px-3 rounded-xl" href="#">Contact</a>
             </div>
-            <button class="bg-red-700 p-4 rounded-full font-mono"><i class="mr-3 fa-solid fa-phone"></i>+8801863245789</button>
+            <button class="bg-red-700 p-4 rounded-full font-mono"><i
+                    class="mr-3 fa-solid fa-phone"></i>+8801863245789</button>
         </div>
         <div class="flex flex-col gap-2 text-center">
-            <p class="text-xl font-sans font-thin">Savor Every Bite Delivered <br> to  <span class="text-[#FF4500]">Your Door!</span></p>
+            <p class="text-xl font-sans font-thin">Savor Every Bite Delivered <br> to <span class="text-[#FF4500]">Your
+                    Door!</span></p>
             <p class="text-md font-mono">Explore our diverse menu and enjoy quick, <br> reliable delivery.</p>
             <button class=" font-mono bg-red-700 p-2 rounded-full m-auto px-5">Browse Menu</button>
         </div>
@@ -65,67 +70,241 @@
     </section>
     <!-- feature -->
     <section>
-        <div class="m-auto w-full max-w-screen-xl overflow-x-scroll scrollbar-hide flex space-x-4 p-4 bg-white rounded-lg shadow-xl shadow-neutral-300">
+        <div
+            class="m-auto overflow-x-scroll scrollbar-hide flex space-x-4 p-4 bg-white rounded-lg shadow-xl shadow-neutral-300 h-[450px]">
+
+
+
             <!-- Image 1 -->
-            <div class="flex-shrink-0 w-64 h-48 bg-gray-300 rounded-lg">
-                <img src="https://medaboutme.ru/upload/medialibrary/e64/shutterstock_251690740.jpg" alt="Image 1" class="w-full h-full object-cover rounded-lg">
-                <h3>Break Salad</h3>
-                <p></p>
-            </div>
-            <!-- Image 2 -->
-            <div class="flex-shrink-0 w-64 h-48 bg-gray-300 rounded-lg">
-                <img src="https://i.pinimg.com/originals/20/63/25/206325d9203e6b3c5b79cfc5202ce046.jpg" alt="Image 2" class="w-full h-full object-cover rounded-lg">
-            </div>
-            <!-- Image 3 -->
-            <div class="flex-shrink-0 w-64 h-48 bg-gray-300 rounded-lg">
-                <img src="https://ab7fa34ab601a1bf3410-b3c5d9ffb2c743810cca774a679d4f75.ssl.cf2.rackcdn.com/mee-goreng-333904-1521449831.jpg" alt="Image 3" class="w-full h-full object-cover rounded-lg">
-            </div>
-            <!-- Image 4 -->
-            <div class="flex-shrink-0 w-64 h-48 bg-gray-300 rounded-lg">
-                <img src="https://dlq00ggnjruqn.cloudfront.net/prometheus/getImage?id=90588" alt="Image 4" class="w-full h-full object-cover rounded-lg">
-            </div>
-            <!-- Image 5 -->
-            <div class="flex-shrink-0 w-64 h-48 bg-gray-300 rounded-lg">
-                <img src="https://cdn.culture.ru/images/367c5971-c7e4-5962-b8be-5efe7926411f"
-                    alt="Image 3" class="w-full h-full object-cover rounded-lg">
-            </div>
-            <!-- Image 6 -->
-            <div class="flex-shrink-0 w-64 h-48 bg-gray-300 rounded-lg">
-                <img src="https://avatars.mds.yandex.net/i?id=60a504cc604e4aa4a6620f563126d2ef117a82ed-4904183-images-thumbs&n=13" alt="Image 4"
-                    class="w-full h-full object-cover rounded-lg">
-            </div>
-            <!-- Image 1 -->
-            <div class="flex-shrink-0 w-64 h-48 bg-gray-300 rounded-lg">
+            <div class="flex-shrink-0 w-64 h-48 bg-gray-300 rounded-lg text-center">
                 <img src="https://medaboutme.ru/upload/medialibrary/e64/shutterstock_251690740.jpg" alt="Image 1"
                     class="w-full h-full object-cover rounded-lg">
+                <div>
+                    <h3 class="font-semibold py-2">Spaghetti Carbonara</h3>
+                    <p>Classic Italian pasta with creamy sauce, pancetta, Parmesan cheese, and a touch of garlic.</p>
+                </div>
+                <div class="flex items-center justify-between p-4">
+                    <h3 class="font-semibold">Price: 420 BDT</h3>
+                    <button class="bg-red-600 rounded-xl p-2 text-white">Order Now</button>
+                </div>
             </div>
+
+
             <!-- Image 2 -->
             <div class="flex-shrink-0 w-64 h-48 bg-gray-300 rounded-lg">
                 <img src="https://i.pinimg.com/originals/20/63/25/206325d9203e6b3c5b79cfc5202ce046.jpg" alt="Image 2"
                     class="w-full h-full object-cover rounded-lg">
+                <h3 class="font-semibold py-2">Chicken Biryani</h3>
+                <p>Aromatic basmati rice cooked with tender chicken, saffron, and a blend of spices.</p>
+                <div class="flex items-center justify-between p-4">
+                    <h3 class="font-semibold">Price: 350 BDT</h3>
+                    <button class="bg-red-600 rounded-xl p-2 text-white">Order Now</button>
+                </div>
             </div>
             <!-- Image 3 -->
             <div class="flex-shrink-0 w-64 h-48 bg-gray-300 rounded-lg">
                 <img src="https://ab7fa34ab601a1bf3410-b3c5d9ffb2c743810cca774a679d4f75.ssl.cf2.rackcdn.com/mee-goreng-333904-1521449831.jpg"
                     alt="Image 3" class="w-full h-full object-cover rounded-lg">
+                <h3 class="font-semibold py-2">Margherita Pizza</h3>
+                <p>Thin crust pizza topped with fresh mozzarella, basil, and tomato sauce.</p>
+                <div class="flex items-center justify-between p-4">
+                    <h3 class="font-semibold">Price: 500 BDT</h3>
+                    <button class="bg-red-600 rounded-xl p-2 text-white">Order Now</button>
+                </div>
             </div>
             <!-- Image 4 -->
             <div class="flex-shrink-0 w-64 h-48 bg-gray-300 rounded-lg">
                 <img src="https://dlq00ggnjruqn.cloudfront.net/prometheus/getImage?id=90588" alt="Image 4"
                     class="w-full h-full object-cover rounded-lg">
+                <div>
+                    <h3 class="font-semibold py-2">Grilled Salmon</h3>
+                    <p>Fresh salmon fillet grilled, served with steamed vegetables and lemon butter sauce.</p>
+                </div>
+                <div class="flex items-center justify-between p-4">
+                    <h3 class="font-semibold">Price: 650 BDT</h3>
+                    <button class="bg-red-600 rounded-xl p-2 text-white">Order Now</button>
+                </div>
             </div>
             <!-- Image 5 -->
             <div class="flex-shrink-0 w-64 h-48 bg-gray-300 rounded-lg">
                 <img src="https://cdn.culture.ru/images/367c5971-c7e4-5962-b8be-5efe7926411f" alt="Image 3"
                     class="w-full h-full object-cover rounded-lg">
+                <h3 class="font-semibold py-2">Vegetable Stir-Fry</h3>
+                <p>A medley of fresh vegetables tossed in a savory soy-ginger sauce, served with rice.</p>
+                <div class="flex items-center justify-between p-4">
+                    <h3 class="font-semibold">Price: 300 BDT</h3>
+                    <button class="bg-red-600 rounded-xl p-2 text-white">Order Now</button>
+                </div>
             </div>
             <!-- Image 6 -->
             <div class="flex-shrink-0 w-64 h-48 bg-gray-300 rounded-lg">
                 <img src="https://avatars.mds.yandex.net/i?id=60a504cc604e4aa4a6620f563126d2ef117a82ed-4904183-images-thumbs&n=13"
                     alt="Image 4" class="w-full h-full object-cover rounded-lg">
+                <h3 class="font-semibold py-2">Tandoori Chicken</h3>
+                <p>Juicy chicken marinated in yogurt and spices, cooked in a traditional clay oven.</p>
+                <div class="flex items-center justify-between p-4">
+                    <h3 class="font-semibold">Price: 550 BDT</h3>
+                    <button class="bg-red-600 rounded-xl p-2 text-white">Order Now</button>
+                </div>
+            </div>
+            <!-- Image 1 -->
+            <div class="flex-shrink-0 w-64 h-48 bg-gray-300 rounded-lg text-center">
+                <img src="https://medaboutme.ru/upload/medialibrary/e64/shutterstock_251690740.jpg" alt="Image 1"
+                    class="w-full h-full object-cover rounded-lg">
+                <h3 class="font-semibold py-2">Spaghetti Carbonara</h3>
+                <p>Classic Italian pasta with creamy sauce, pancetta, Parmesan cheese, and a touch of garlic.</p>
+                <div class="flex items-center justify-between p-4">
+                    <h3 class="font-semibold">Price: 420 BDT</h3>
+                    <button class="bg-red-600 rounded-xl p-2 text-white">Order Now</button>
+                </div>
+            </div>
+
+
+            <!-- Image 2 -->
+            <div class="flex-shrink-0 w-64 h-48 bg-gray-300 rounded-lg">
+                <img src="https://i.pinimg.com/originals/20/63/25/206325d9203e6b3c5b79cfc5202ce046.jpg" alt="Image 2"
+                    class="w-full h-full object-cover rounded-lg">
+                <h3 class="font-semibold py-2">Chicken Biryani</h3>
+                <p>Aromatic basmati rice cooked with tender chicken, saffron, and a blend of spices.</p>
+                <div class="flex items-center justify-between p-4">
+                    <h3 class="font-semibold">Price: 350 BDT</h3>
+                    <button class="bg-red-600 rounded-xl p-2 text-white">Order Now</button>
+                </div>
+            </div>
+            <!-- Image 3 -->
+            <div class="flex-shrink-0 w-64 h-48 bg-gray-300 rounded-lg">
+                <img src="https://ab7fa34ab601a1bf3410-b3c5d9ffb2c743810cca774a679d4f75.ssl.cf2.rackcdn.com/mee-goreng-333904-1521449831.jpg"
+                    alt="Image 3" class="w-full h-full object-cover rounded-lg">
+                <h3 class="font-semibold py-2">Margherita Pizza</h3>
+                <p>Thin crust pizza topped with fresh mozzarella, basil, and tomato sauce.</p>
+                <div class="flex items-center justify-between p-4">
+                    <h3 class="font-semibold">Price: 500 BDT</h3>
+                    <button class="bg-red-600 rounded-xl p-2 text-white">Order Now</button>
+                </div>
+            </div>
+            <!-- Image 4 -->
+            <div class="flex-shrink-0 w-64 h-48 bg-gray-300 rounded-lg">
+                <img src="https://dlq00ggnjruqn.cloudfront.net/prometheus/getImage?id=90588" alt="Image 4"
+                    class="w-full h-full object-cover rounded-lg">
+                <h3 class="font-semibold py-2">Grilled Salmon</h3>
+                <p>Fresh salmon fillet grilled, served with steamed vegetables and lemon butter sauce.</p>
+                <div class="flex items-center justify-between p-4">
+                    <h3 class="font-semibold">Price: 650 BDT</h3>
+                    <button class="bg-red-600 rounded-xl p-2 text-white">Order Now</button>
+                </div>
+            </div>
+            <!-- Image 5 -->
+            <div class="flex-shrink-0 w-64 h-48 bg-gray-300 rounded-lg">
+                <img src="https://cdn.culture.ru/images/367c5971-c7e4-5962-b8be-5efe7926411f" alt="Image 3"
+                    class="w-full h-full object-cover rounded-lg">
+                <h3 class="font-semibold py-2">Vegetable Stir-Fry</h3>
+                <p>A medley of fresh vegetables tossed in a savory soy-ginger sauce, served with rice.</p>
+                <div class="flex items-center justify-between p-4">
+                    <h3 class="font-semibold">Price: 300 BDT</h3>
+                    <button class="bg-red-600 rounded-xl p-2 text-white">Order Now</button>
+                </div>
+            </div>
+            <!-- Image 6 -->
+            <div class="flex-shrink-0 w-64 h-48 bg-gray-300 rounded-lg">
+                <img src="https://avatars.mds.yandex.net/i?id=60a504cc604e4aa4a6620f563126d2ef117a82ed-4904183-images-thumbs&n=13"
+                    alt="Image 4" class="w-full h-full object-cover rounded-lg">
+                <h3 class="font-semibold py-2">Tandoori Chicken</h3>
+                <p>Juicy chicken marinated in yogurt and spices, cooked in a traditional clay oven.</p>
+                <div class="flex items-center justify-between p-4">
+                    <h3 class="font-semibold">Price: 550 BDT</h3>
+                    <button class="bg-red-600 rounded-xl p-2 text-white">Order Now</button>
+                </div>
             </div>
         </div>
     </section>
+    <!-- Review Section -->
+    <section class="py-10 bg-custom-grid">
+        <h1 class="text-center text-[48px] font-bold text-[#FF4500]">What Our Customers Are Saying</h1>
+        <div class="flex flex-row justify-center items-center p-[50px] gap-16">
+            <div class="w-[285px] shadow-custom p-8 rounded-lg flex flex-col text-center space-y-4">
+                <p>"I love the variety of options available! The food always arrives hot and fresh. My favorite is the
+                    spicy chicken curry.
+                    Highly recommended!"</p>
+                <img class="w-[64px] h-[64px] m-auto" src="images/Ellipse 4.png" alt="">
+                <h2 class="text-2xl font-semibold">Saraj J.</h2>
+                <div><i class="fa-solid fa-star" style="color: #FFD43B;"></i><i class="fa-solid fa-star"
+                        style="color: #FFD43B;"></i><i class="fa-solid fa-star" style="color: #FFD43B;"></i><i
+                        class="fa-solid fa-star-half-stroke" style="color: #FFD43B;"></i></div>
+            </div>
+            <div class="w-[285px] shadow-custom p-8 rounded-lg flex flex-col text-center space-y-4">
+                <p>"Fast delivery and excellent customer service! I had a small issue with my order. The pizza was delicious and just as I ordered!"</p>
+                <img class="w-[64px] h-[64px] m-auto" src="images/profile-1.png" alt="">
+                <h2 class="text-2xl font-semibold">Mark T.</h2>
+                <div><i class="fa-solid fa-star" style="color: #FFD43B;"></i><i class="fa-solid fa-star"
+                        style="color: #FFD43B;"></i><i class="fa-solid fa-star" style="color: #FFD43B;"></i><i
+                        class="fa-solid fa-star-half-stroke" style="color: #FFD43B;"></i></div>
+            </div>
+            <div class="w-[285px] shadow-custom p-8 rounded-lg flex flex-col text-center space-y-4">
+                <p>"I’ve tried several food delivery services. The food is consistently great,and the delivery is always on time. Love it!"</p>
+                <img class="w-[64px] h-[64px] m-auto" src="images/profile-2.png" alt="">
+                <h2 class="text-2xl font-semibold">Davi L.</h2>
+                <div><i class="fa-solid fa-star" style="color: #FFD43B;"></i><i class="fa-solid fa-star"
+                        style="color: #FFD43B;"></i><i class="fa-solid fa-star" style="color: #FFD43B;"></i><i
+                        class="fa-solid fa-star-half-stroke" style="color: #FFD43B;"></i></div>
+            </div>
+        </div>
+    </section>
+    <!-- About Section -->
+    <section class="bg-black-grid">
+        <h1 class="text-[64px] text-white text-center pt-10">About Us</h1>
+        <div class="flex justify-center items-center gap-[100px] px-10">
+            <img src="images/add.png" alt="">
+            <p class="text-white text-[29px] text-justify">"At Quick Eats, we believe that everyone deserves access to delicious, high-quality meals delivered right to their
+            doorstep. Our mission is to connect our community with a diverse range of culinary delights, from local favorites to
+            international cuisines, all prepared with the freshest ingredients.
+            We are committed to providing exceptional customer service and ensuring that every order is handled with care. Our team
+            of dedicated delivery professionals works tirelessly to ensure that your meals arrive hot and fresh, right when you need
+            them.
+            Join us on this delicious journey and discover why we are the preferred choice for food delivery in Chattogram. We can't
+            wait to serve you!"</p>
+        </div>
+    </section>
+    <!-- Sign up -->
+    <section class="bg-custom-grid py-8 m-auto">
+        <h1 class="text-[52px] text-[#FF4500] text-center">Stay Updated!</h1>
+        <p class="text-[36px] text-center">"Sign up for our newsletter to receive exclusive offers and updates."</p>
+        <div class="m-auto flex justify-center gap-10 mt-4">
+            <input class="bg-white w-80 p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"  type="email" placeholder="Enter Your email addresst" class="rounded-md">
+            <button class="bg-red-600 rounded-xl p-2 text-white">Subscribe</button>
+        </div>
+    </section>
+    <footer class="m-auto p-[50px] bg-red-950  text-white ">
+        <div class="flex gap-12 justify-between">
+            <div class="text-center">
+                <img class="m-auto w-[70px] h-[70px] rounded-full" src="images/logo.png" alt="">
+                <h2 class="text-[40px] font-semibold">Quick Eats</h2>
+                <p class="text-[24px]">Delivering Freshness and Flavor to Your Doorstep!</p>
+            </div>
+            <div class="flex flex-col justify-between text-center text-[24px]">
+                <p class="font-semibold" href="#">Quick Links</p>
+                <a href="#">Privacy & Policy</a>
+                <a href="#">Terms & Services</a>
+                <a href="#">FAQs</a>
+            </div>
+            <div class="flex flex-col gap-4 justify-center text-[24px]">
+                <a href="#">Follow Us</a>
+                <div class="flex flex-row justify-between">
+                    <a href="#"><i class="fa-brands fa-facebook" style="color: #B197FC;"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram" style="color: #74C0FC;"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter" style="color: #74C0FC;"></i></a>
+                    
+                </div>
+            </div>
+            <div class="flex flex-col justify-between gap-[40px] text-[24px]">
+                <p>Contact Us</p>
+                <p>Phone:+8801845698321</p>
+                <p>Email: quickeats@gmail.com</p>
+                <p>124 Foodie Lane, Flavor Town, ST 12345</p>
+            </div>
+        </div>
+        <p class="text-center mt-10 text-[24px]">All rights reserved &copy Quick Eats - 2024</p>
+    </footer>
     <div class="h-[1000px]"></div>
 </body>
+
 </html>
